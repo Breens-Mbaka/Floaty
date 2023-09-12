@@ -110,7 +110,7 @@ dependencies {
 If you encounter any issues or have feature requests, please create a new issue in this repository.
 
 ### Supporting Floaty :heart:
-Support it by joining __[stargazers](https://github.com/Breens-Mbaka/Searchable-Dropdown-Menu-Jetpack-Compose/stargazers)__ for this repository. :star: <br>
+Support it by joining __[stargazers](https://github.com/Breens-Mbaka/Floaty/stargazers)__ for this repository. :star: <br>
 Also __[follow](https://github.com/Breens-Mbaka)__ me for my next creations! 🤩
 
 ### License
