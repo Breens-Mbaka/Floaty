@@ -25,7 +25,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation("com.github.Breens-Mbaka:Floaty:1.0.0")
+    implementation("com.github.Breens-Mbaka:Floaty:1.0.1")
 }
 ```
 
