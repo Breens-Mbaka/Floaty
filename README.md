@@ -21,7 +21,7 @@ allprojects {
 }
 ```
 
-### Step 2: Add the Floaty dependency to your app's build.gradle file:
+### Step 2: Add the Floaty dependency to your app's build.gradle file:(Check out [sample app](https://github.com/Breens-Mbaka/Floaty/blob/main/app/src/main/java/com/breens/floaty/MainActivity.kt) for full implementation)
 
 ```gradle
 dependencies {
@@ -29,25 +29,25 @@ dependencies {
 }
 ```
 
-### Step 3: Configure the floating widget by providing the custom layout resource ID in your Kotlin code:
-
-``` Kotlin
-   CustomLayoutConfiguration.customLayoutResourceId = R.layout.floating_widget
-```
-
-### Step 4. Add the "SYSTEM_ALERT_WINDOW" permission to your AndroidManifest.xml file:
+### Step 3. Add the "SYSTEM_ALERT_WINDOW" permission to your AndroidManifest.xml file:
 
 ``` xml
    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 ```
 
-### Step 5: Register the FloatyWidget service in your AndroidManifest.xml file:
+### Step 4: Register the FloatyWidget service in your AndroidManifest.xml file:
 
 ``` xml
    <service
             android:name=".FloatyWidget"
             android:enabled="true"
             android:exported="false" />
+```
+
+### Step 5: Configure the floating widget by providing the custom layout resource ID in your Kotlin code:
+
+``` Kotlin
+   CustomLayoutConfiguration.customLayoutResourceId = R.layout.floating_widget
 ```
 
 ### Step 6. Show floating widget but make sure the overlay permission is granted or else request user to give permission
