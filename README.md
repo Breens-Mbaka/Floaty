@@ -53,6 +53,9 @@ dependencies {
 ### Step 6. Show floating widget but make sure the overlay permission is granted or else request user to give permission
 
 ``` Kotlin
+   // N.B ⚠️: The methods to check for overlay permission & to request overlay permission
+   // are already provided so just call them
+   
    val showFloatingWidgetButton = findViewById<Button>(R.id.showFloatingWidgetButton)
         showFloatingWidgetButton.setOnClickListener {
             if (checkOverlayDisplayPermission(context = this)) {
